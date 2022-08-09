@@ -1,0 +1,28 @@
+#what .items{
+   display: block;
+   padding: 1rem;
+}
+#navbar{
+   flex-direction: column;
+   align-items: center;
+}
+
+#navbar .logo{
+ margin-bottom: 1rem;
+}
+#navbar ul{
+   padding: 0.5rem;
+}
+#who{
+   display: block;
+}
+#who img{
+   display: none;
+}
+
+#contact{
+   flex-direction: column;
+}
+#contact .map{
+   height: 500px;
+}

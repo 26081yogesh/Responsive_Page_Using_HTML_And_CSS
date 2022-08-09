@@ -1,0 +1,26 @@
+#what .items{
+   /* display: block; */
+   padding: 1rem;
+}
+#what .items .item{
+   display: flex;
+}
+#what .items .item i{
+   align-self: center;
+   margin-right: 1.3rem;
+}
+
+#what .items .item .what-content{
+   text-align: left;
+}
+
+#navbar{
+   padding: 1.5rem;
+}
+#navbar ul li a{
+      font-size: 1.3rem;
+}
+
+#contact .map{
+   flex: 2;
+}

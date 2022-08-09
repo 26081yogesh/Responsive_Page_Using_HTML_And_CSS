@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); 
+
+*{
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+
+body{
+   font-family: 'Roboto', sans-serif;
+}
+
+a{
+   text-decoration: none;
+}
+
+p{
+   padding: 0.75rem 0;
+}
+
+/* Utility Class */
+.text-primary{
+   color: #93cb52;
+}
+.text-center{
+   text-align: center;
+}
+.l-heading{
+   font-size: 4rem;
+   margin-bottom: 0.75rem;
+}
+.m-heading{
+   font-size: 2rem;
+   margin-bottom: 0.75rem;
+   padding: 1.5rem 0;
+}
+.lead{
+   font-size: 1.3rem;
+   margin-bottom: 1.4rem;
+}
+.container{
+   max-width: 1500px;
+   padding: 0 2rem;
+   margin: auto;
+   overflow: auto;
+}
+.btn{
+   color: #ffffff;
+   background-color: #93cb52;
+   padding: 0.75rem 2rem;
+   border: none;
+   border-radius: 5px;
+}
+.btn:hover{
+   background-color: #7ab436;
+}
+
+/* Navbar */
+#navbar{
+   display: flex;
+   background-color: #333333;
+   justify-content: space-between;
+   color: #ffffff;
+   position: sticky;
+   top: 0;
+   z-index: 100;
+   padding: 1rem;
+}
+
+#navbar ul{
+   display: flex;
+   list-style: none;
+   align-items: center;
+}
+
+#navbar ul li a{
+   color: #ffffff;
+   padding: 0.75rem;
+   margin: 0 0.25rem;
+}
+
+#navbar ul li a:hover{
+   background-color: #93cb52;
+   border-radius: 5px;
+}
+
+/* Showcase */
+#showcase{
+   background: url('../images/showcase.jpg') no-repeat center center/cover;
+   color: #ffffff;
+   height: 100vh;
+}
+
+#showcase .showcase-content{
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+   padding: 0 2rem;
+   background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* What We Do */
+#what .items{
+   display: flex;
+   flex: 1;
+}
+
+#what .items .item{
+   text-align: center;
+   padding: 2rem;
+   font-size: 1.2rem;
+}
+
+#what .items .item i{
+   background-color: #93cb52;
+   padding: 1rem;
+   margin-bottom: 1rem;
+   border-radius: 50%;
+}
+
+/* Who We Are */
+#who{
+   display: flex;
+}
+
+#who div{
+   flex: 1;
+}
+
+#who .who-img{
+   background: url('../images/people.jpg') no-repeat center center/cover;
+}
+
+#who .who-text{
+   padding: 1.5rem;
+   background-color: #333333;
+   color: #ffffff;
+}
+#who .who-text ul{
+   list-style: none;
+   margin: 1rem 0;
+}
+
+#who .who-text ul li{
+   /* margin: 0.5rem 0 */
+   padding: 0.5rem 0;
+   border-bottom: 1px dotted #444;
+}
+/* Our Clients */
+#our-clients h2{
+   text-align: center;
+}
+.clients{
+   display: flex;
+   margin-bottom: 3rem;
+}
+.clients img{
+   display: block;
+   width: 70%;
+}
+
+/* Contacts */
+#contact{
+   display: flex;
+}
+
+
+#contact .contact-form{
+   background-color: #93cb52;
+   color: #ffffff;
+}
+
+#contact .contact-form h2,
+#contact .contact-form p{
+   text-align: center;
+}
+
+#contact .contact-form .form-group{
+   margin: 0.75rem;
+}
+
+#contact .contact-form,
+#contact .map{
+   flex: 1;
+}
+
+#contact .contact-form label{
+   display: block;
+   font-size: 1.2rem;
+   margin: 0.2rem 0;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea{
+   width: 100%;
+   padding: 0.5rem;
+}
+
+#contact .btn{
+   background-color: #333333;
+   padding: 1rem 2rem;
+}
+#contact .bttn{
+   display: flex;
+   justify-content: center;
+   margin: 1rem;
+}
+
+/* Footer */
+#main-footer{
+   background-color: #333333;
+   color: #ffffff;
+   text-align: center;
+   padding: 0.75rem 0;
+}
